@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zhaiyingchang/front-end-demo/issues"
   },
-  "homepage": "https://github.com/zhaiyingchang/front-end-demo#readme"
+  "homepage": "https://github.com/zhaiyingchang/front-end-demo#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
 }
