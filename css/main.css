@@ -3,6 +3,9 @@ body {
   margin: 0;
   font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif; }
 
+* {
+  box-sizing: border-box; }
+
 a {
   text-decoration: none; }
 
@@ -31,16 +34,16 @@ header {
     margin: 0 auto;
     margin-top: 7em; }
 
-.runners {
+.videos {
   height: 20em;
   background-color: #E91E63; }
-  .runners .title, .runners .desc {
+  .videos .title, .videos .desc {
     text-align: center;
     font-weight: normal;
     color: #FFFFFF; }
-  .runners .desc {
+  .videos .desc {
     opacity: 0.8; }
-  .runners .visit {
+  .videos .visit {
     display: block;
     width: 25%;
     text-align: center;
@@ -51,6 +54,15 @@ header {
     color: #FFFFFF;
     border-radius: 0.4em;
     background-color: #C2185B; }
+
+.runner {
+  padding: 1em; }
+  .runner img {
+    width: 100%; }
+  @media (min-width: 600px) {
+    .runner {
+      float: left;
+      width: 33.333%; } }
 
 footer {
   height: 5em;

@@ -14,7 +14,7 @@ header{
   }
 }
 
-.runners{
+.videos{
   height: 20em;
   background-color: $primary-color;
   .title, .desc{
@@ -37,6 +37,18 @@ header{
     border-radius: 0.4em;
     background-color: $primary-color-dark;
   }
+}
+
+.runner{
+  padding: 1em;
+  img{
+    width: 100%;
+  }
+  @media (min-width: 600px){
+    float: left;
+    width: 33.333%;
+  }
+
 }
 
 footer{
