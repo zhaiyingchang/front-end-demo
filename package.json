@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/zhaiyingchang/front-end-demo#readme",
   "devDependencies": {
+    "grunt-cli": "^0.1.13",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^2.3.1",
     "gulp-sass": "^2.0.4"
