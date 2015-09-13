@@ -1,3 +1,4 @@
+var React = require('react');
 var Slides = React.createClass({
   render: function() {
     return (
@@ -8,3 +9,4 @@ var Slides = React.createClass({
       );
   }
 });
+module.exports = Slides;

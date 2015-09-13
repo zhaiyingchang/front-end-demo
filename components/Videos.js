@@ -1,3 +1,4 @@
+var React = require('react');
 var Videos = React.createClass({
   render: function() {
     return (
@@ -11,3 +12,4 @@ var Videos = React.createClass({
   }
 });
 React.render(<Videos/>, document.getElementById('videos'));
+module.exports = Videos;

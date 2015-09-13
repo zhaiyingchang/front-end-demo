@@ -1,3 +1,4 @@
+var React = require('react');
 var Runners = React.createClass({
   render: function() {
     return (
@@ -11,3 +12,4 @@ var Runners = React.createClass({
   }
 });
 
+module.exports = Runners;
