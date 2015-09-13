@@ -17,10 +17,15 @@
   },
   "homepage": "https://github.com/zhaiyingchang/front-end-demo#readme",
   "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
     "babel-core": "^5.8.24",
     "babel-loader": "^5.3.2",
+    "css-loader": "^0.18.0",
     "grunt-cli": "^0.1.13",
+    "node-sass": "^3.3.2",
     "react": "^0.13.3",
+    "sass-loader": "^2.0.1",
+    "style-loader": "^0.12.3",
     "webpack": "^1.12.1"
   }
 }
