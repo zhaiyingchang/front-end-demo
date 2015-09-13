@@ -11,5 +11,5 @@ var Videos = React.createClass({
     );
   }
 });
-React.render(<Videos/>, document.getElementById('videos'));
+
 module.exports = Videos;

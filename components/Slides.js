@@ -9,4 +9,5 @@ var Slides = React.createClass({
       );
   }
 });
+
 module.exports = Slides;

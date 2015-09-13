@@ -49,7 +49,7 @@
 	var React = __webpack_require__(1);
 	var App = __webpack_require__(157);
 
-	React.render(React.createElement(App, null), document.getElementById('root'));
+	React.render(React.createElement(App, null), document.getElementById('app'));
 
 /***/ },
 /* 1 */
@@ -18249,7 +18249,7 @@
 	    );
 	  }
 	});
-	React.render(React.createElement(Videos, null), document.getElementById('videos'));
+
 	module.exports = Videos;
 
 /***/ },
