@@ -1,17 +1,9 @@
 @import 'common';
+@import 'slides';
 
 header{
   height: 5em;
   background-color: $primary-color;
-}
-
-.slides{
-  height: 15em;
-  background-color: $primary-color-light;
-  .slides-button{
-    margin: 0 auto;
-    margin-top: 7em;
-  }
 }
 
 .videos{

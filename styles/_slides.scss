@@ -1,0 +1,10 @@
+@import 'search-button';
+.slides{
+  height: 15em;
+  background-color: $primary-color-light;
+  .search-button{
+    margin: 0 auto;
+    margin-top: 5em;
+  }
+}
+
