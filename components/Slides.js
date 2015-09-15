@@ -1,10 +1,10 @@
 var React = require('react');
-var SearchButton = require("./SearchButton.js");
+var Button = require("./Button.js");
 var Slides = React.createClass({
   render: function() {
     return (
       <div className="slides clearfix">
-        <SearchButton />
+        <Button text={'Search'}/>
       </div>
       );
   }
