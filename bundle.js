@@ -18324,7 +18324,7 @@
 	    return React.createElement(
 	      "a",
 	      { href: "#", className: "button" },
-	      "[this.props.text]"
+	      this.props.text
 	    );
 	  }
 	});
