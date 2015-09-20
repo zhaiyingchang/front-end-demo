@@ -1,10 +1,7 @@
 @import 'common';
+@import 'header/index';
 @import 'slides';
 
-header{
-  height: 5em;
-  background-color: $primary-color;
-}
 
 .videos{
   height: 20em;

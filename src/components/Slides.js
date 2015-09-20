@@ -4,7 +4,7 @@ var Slides = React.createClass({
   render: function() {
     return (
       <div className="slides clearfix">
-        <Button isGreen={true} text={'Search'}/>
+        <Button isGreen={true} text={'Search Hi'}/>
       </div>
       );
   }
