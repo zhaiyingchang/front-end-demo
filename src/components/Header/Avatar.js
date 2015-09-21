@@ -10,3 +10,5 @@ var Avatar = React.createClass({
 });
 
 module.exports = Avatar;
+
+
