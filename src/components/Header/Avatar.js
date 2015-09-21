@@ -3,7 +3,7 @@ var Avatar = React.createClass({
   render: function() {
     return (
       <div className="avatar">
-        Avatar
+        <img src="http://tp4.sinaimg.cn/2682424731/180/5672966551/1" />
       </div>
     );
   }

@@ -4,7 +4,7 @@ var Social = require('./Social.js');
 var Header = React.createClass({
   render: function() {
     return (
-      <header>
+      <header className="clearfix">
         <Avatar />
         <Social />
       </header>
